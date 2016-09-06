@@ -9,7 +9,7 @@ node_js:
   - "6"
   - "4"
 before_install:
-  - npm i react@15 react-dom@15 react-i18n@0 react-redux@4 react-router@2 react-router-redux@4 redux@3 redux-thunk@2 classnames@2
+  - npm i react@15 react-dom@15 react-i18next@0 react-redux@4 react-router@2 react-router-redux@4 redux@3 redux-thunk@2 classnames@2
 before_script:
   - npm prune
 script: npm test && npm run lint
